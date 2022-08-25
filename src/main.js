@@ -1,6 +1,10 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
+import element from "./element";
+import "element-plus/dist/index.css"; // 引入全局element-plus样式
+import "./assets/main.css";
 
-import './assets/main.css'
-
-createApp(App).mount('#app')
+const app = createApp(App);
+app.use(element);
+// 挂载应用
+app.mount("#app");

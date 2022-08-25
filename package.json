@@ -7,10 +7,14 @@
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "echarts": "^5.3.3",
+    "element-plus": "^2.2.14",
     "vue": "^3.2.37"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0.1",
-    "vite": "^3.0.4"
+    "vite": "^3.0.4",
+    "vue-router": "^4.1.4"
   }
 }
